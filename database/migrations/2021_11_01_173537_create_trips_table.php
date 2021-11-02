@@ -17,7 +17,7 @@ class CreateTripsTable extends Migration
             $table->id();
             $table->string('departure', 50);
             $table->string('destination', 50);
-            $table->date('daparture_date');
+            $table->date('departure_date');
             $table->date('return_date');
             $table->timestamps();
         });
